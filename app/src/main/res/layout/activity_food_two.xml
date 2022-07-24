@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodTwo">
+
+
+    <ImageView
+        android:id="@+id/honey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/honey" />
+
+    <Button
+        android:id="@+id/curry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/curry_smaller"
+        android:text="Sweet potato, chickpea\n &amp; spinach curry"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2D47DC"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tuna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/tuna_smaller"
+        android:text="Tuna fettucine\n"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2D47DC"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curry"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/pizza_smaller"
+        android:text="Wholemeal-crust\n pizza rossa"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2D47DC"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tuna"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/chicken_smaller"
+        android:text="Sesame butterflied\n chicken"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2D47DC"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/prawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pizza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/prawn_smaller"
+        android:text="Prawn &amp; courgette spaghetti"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2D47DC"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

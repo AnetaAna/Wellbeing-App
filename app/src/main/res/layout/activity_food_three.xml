@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodThree">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/foodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:fontFamily="@font/courgette"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="34sp" />
+
+     <ImageView
+         android:id="@+id/foodImage"
+         android:layout_width="182dp"
+         android:layout_height="295dp"
+         android:layout_below="@id/foodName"
+         android:adjustViewBounds="true"
+         android:paddingLeft="20dp"
+         app:srcCompat="@drawable/eggs" />
+
+    <TextView
+        android:id="@+id/foodDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodName"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginRight="25dp"
+        android:layout_toEndOf="@+id/foodImage"
+        android:background="#AEF8C953"
+        android:fontFamily="@font/amaranth"
+        android:padding="5dp"
+        android:text="TextViewgggggg\n fdhifhdjkd"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+     <TextView
+         android:id="@+id/ingredients"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/foodImage"
+         android:layout_marginLeft="20dp"
+         android:background="#6B55E3F4"
+         android:fontFamily="@font/amaranth"
+         android:padding="5dp"
+         android:text="TextView\n fdhifhdjkd"
+         android:textColor="#000000"
+         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foodImage"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/ingredients"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:background="#6B55E3F4"
+        android:fontFamily="@font/amaranth"
+        android:padding="5dp"
+        android:text="TextView\n fdhifhdjkd"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+ </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

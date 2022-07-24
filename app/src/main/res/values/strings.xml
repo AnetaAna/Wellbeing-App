@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wellbeing App</string>
+
+    <!-- MINDFULNESS -->
+
+    <string name="mindfulness_tips">
+    1.Take a seat. Find a place to sit that feels calm and quiet to you.\n
+    2. Set a time limit. If you’re just beginning, it can help to choose a short time, such as 5 or 10 minutes.\n
+    3. Notice your body. You can sit in a chair with your feet on the floor, you can sit loosely cross-legged, in lotus posture, you can kneel—all are fine. Just make sure you are stable and in a position you can stay in for a while.\n
+    4. Feel your breath. Follow the sensation of your breath as it goes out and as it goes in.\n
+    5. Notice when your mind has wandered. Inevitably, your attention will leave the sensations of the breath and wander to other places. When you get around to noticing this—in a few seconds, a minute, five minutes—simply return your attention to the breath.\n
+    6. Be kind to your wandering mind. Don’t judge yourself or obsess over the content of the thoughts you find yourself lost in. Just come back.\n \n
+
+    </string>
+
+
+    <!-- QUOTES -->
+
+    <string-array name="quotes_array">
+
+
+     <item>
+     "Life doesn't get easier, you just get stronger." \n Steve Maraboli
+    </item>
+
+
+        <item>
+    "You are strong enough to face it all. Even if it doesn't feel like it right now." \n Marianne Williamson
+    </item>
+
+
+        <item>
+    "It’s not about being the best, it’s about being better than you were yesterday." \n Jigoro Kano
+    </item>
+
+        <item>
+    "Never give up on the things that make you smile." \n Heath Ledger
+    </item>
+
+        <item>
+      "Make happiness a priority and be gentle with yourself in the process." \n Bronnie Ware
+    </item>
+
+        <item>
+     "A beautiful day begins with a beautiful mindset." \n John Geiger
+    </item>
+
+
+        <item>
+     "A beautiful day begins with a beautiful mindset." \n John Geiger
+    </item>
+
+
+        <item>
+        "Not all storms come to disrupt your life. Some come to clear your path." \n Paulo Coelho
+    </item>
+
+    </string-array>
+
+    <!-- MEDITATION -->
+
+    <string name="meditation_about">
+    Meditation is used to create mindfulness by bringing your attention to the breath and back to the breath each time your mind wanders.
+        It can also be used to heighten awareness of the thoughts, feelings, judgements,and sensations that arise in your mind. \n \n
+
+        Mudra is a small action with the hands. Mudras are used in meditation and yoga to help guide the flow of energy in the subtle body to help focus the mind and go inward. \n
+
+    </string>
+
+    <string name="prana_name">
+        PRANA MUDRA
+     </string>
+
+    <string name="prana_about">
+        The Prana mudra activates the dormant energy within the body. To do this, place the tips of your thumb, ring finger, and little finger together. This mudra symbolizes the vital energy of prana, and will encourage the flow of this energy, making you feel energized and strong.
+    </string>
+
+    <string name="dhyana_name">
+        DHYANA MUDRA
+     </string>
+
+    <string name="dhyana_about">
+    This mudra provides calming energy for meditation and is used for deep contemplation and reflection. To do this, place your hands on your lap, left palm under, palms facing up, and the tips of the thumbs touching.
+   </string>
+
+    <string name="gyana_name">
+        GYANA MUDRA
+     </string>
+
+    <string name="gyana_about">
+    This is perhaps the most used mudra in yoga and is also known as the chin mudra. To do this, bring the tips of the thumb and index finger together, and keep the other three fingers together, lightly stretched. This symbolizes the unity of fire and air as well as the unity of universal and individual consciousness.
+\n
+    The Gyana mudra increases concentration, creativity, and is a gesture of knowledge. Keep your palms facing upwards when feeling receptive or rest your palm on your leg when you wish to feel more grounded.
+ </string>
+
+    <string name="shuni_name">
+        SHUNI MUDRA
+     </string>
+
+    <string name="shuni_about">
+    Bring the tip of the middle finger and thumb together, uniting the elements of fire and connection. This mudra symbolizes patience and discipline, and helps us generate a feeling of stability. Use this mudra when you feel you need additional strength to follow through with tasks.
+ </string>
+
+    <string name="anjali_name">
+     ANJALI MUDRA
+     </string>
+
+    <string name="anjali_about">
+    Bringing the palms together in front of the heart space symbolizes honor and respect toward yourself and toward the universe. This mudra expresses love and gratitude. Namaste.
+     </string>
+
+
+    <!-- WORKOUT-->
+
+
+    <string name="mountain">
+    Start in a plank position. Drive your knee up towards your chest or elbows while alternating lead legs. Increase your speed to increase your heart rate.
+    </string>
+
+    <string name="crunches">
+    Lie flat on your mat with knees bent and feet on the mat. Hands at the base of your head and elbows pointed out. 2. Using your abdominals bring your head and shoulders off the mat and come up into a crunch, then lower with control.
+    </string>
+
+    <string name="bench">
+    Stand facing away from a bench, grab it with both hands at shoulder-width. Extend your legs out in front of you. Slowly lower your body by flexing at the elbows until your arm at forearm create a 90 degree angle. Using your triceps lift yourself back to the starting position.
+    </string>
+
+    <string name="bicycle">
+        Raise your knees to a 90-degree angle and alternate extending your legs as if pedaling a bike. Twist your body to touch your elbow to the opposite knee with each pedal motion.
+    </string>
+
+    <string name="leg">
+        Lie on your back, legs straight and together. 2. Keep your legs straight and lift them all the way up to the ceiling until your butt comes off the floor. 3. Slowly lower your legs back down till they are just above the floor.
+    </string>
+
+    <string name="alternate">
+        Lie on your back, keep your knees bent, arms at the sides, and keep your back and feet flat on the mat. 2. Crunch forward and to the left, touching your left heel with your left hand and hold.
+    </string>
+
+    <string name="leg_up">
+         Begin by slowly curling your upper body, lifting your shoulder blades off of the floor. Exhale on the upward motion. Keep your legs straight and pointed upward; don\'t let them sway or list to one side. Continue curling your body upward using your core muscles.
+    </string>
+
+    <string name="sit_up">
+        Lie down on your back. Bend your legs and place feet firmly on the ground. Cross your hands to opposite shoulders over your chest or place them behind your ears, without pulling on your neck. Curl your upper body all the way up toward your knees. Exhale as you lift. Slowly, lower yourself down, returning to your starting point. Inhale as you lower.
+    </string>
+
+    <string name="v">
+        Lie flat on your back with your legs out straight in front of you and your arms down by your sides. Lift one leg up toward the ceiling and then lift your other leg up off the ground, squeezing your glute. Press your low back into the ground and engage your abs as you lift your legs up.
+    </string>
+
+    <string name="rotations">
+        Straight body from head to toes. Tighten abs and glutes to hold up your body. Reach elbow up toward the sky and slowly twist upper body back, look the same direction. Hold 1-3 seconds, return slowly and repeat other side to count one repetition.
+    </string>
+
+    <string name="left">
+        1. Start in a low plank position with your body in a straight line, your elbows bent and under your shoulders, and your feet hip-width apart. 2. Lift your left leg to a 45-degree angle and hold. 3. Switch legs and repeat.
+    </string>
+
+    <string name="russian">
+        Sit with bent knees and your feet pressing firmly into the floor, holding your hands next to your chest. Sit back slightly, keeping your spine straight. Exhale as you twist to the left, punching your right arm over to the left side. Inhale back to center, and then do the opposite side.
+    </string>
+
+    <string name="bridge">
+        Lie on your back with your knees bent. Tighten your abdominal muscles. Raise your hips off the floor until your hips are aligned with your knees and shoulders. Hold for three deep breaths.
+    </string>
+
+    <string name="vertical">
+        Get into a sit-up position and raise your legs until they are in a straight line perpendicular to the floor. Place your hands behind your head, squeeze your abs to engage your core, and raise your shoulder blades off the floor.
+    </string>
+
+    <string name="windmill">
+        In this position, your arms might look like two arms of a windmill. Hinge at the hips to lower the upper body down and to the left side. Your left hand will stay facing forward while it slides down near the front of your left leg toward your foot. Keep the right arm steady and fully extended overhead.
+    </string>
+
+
+    <!-- RECIPES -->
+
+    <string name="eggs_name">
+        Silky masala eggs\n
+        WITH FRESH CHILLI &amp; WARM CHAPATIS
+    </string>
+
+    <string name="eggs_details">
+        VEGETARIAN\n
+    SERVES 4\n
+    COOKS IN 20 MINUTES\n
+        DIFFICULTY NOT TOO TRICKY
+    </string>
+
+    <string name="eggs_ing">
+        Ingredients\n
+\n
+1 small red onion\n
+1 fresh red or green chilli\n
+1 clove of garlic\n
+½ a bunch of fresh coriander\n
+2 large ripe tomatoes\n
+4 wholemeal chapatis\n
+olive oil\n
+½ teaspoon cumin seeds\n
+1 teaspoon garam masala\n
+½ teaspoon ground turmeric\n
+6 large free-range eggs
+    </string>
+
+    <string name="eggs_method">
+        Method\n
+\n
+        Preheat the oven to 160ºC/325ºF/gas 3.\n
+On a chopping board, peel and finely slice the onion, deseed and finely slice the chilli, then peel and crush the garlic.\n
+Pick and roughly chop the coriander leaves, finely chopping the stalks.\n
+Halve, deseed and finely chop the tomatoes.\n
+Place the chapatis on a tray and into the oven to warm through.\n
+Heat 1 tablespoon of olive oil in a large non-stick frying pan over a medium-low heat, add the onion, chilli, garlic and coriander stalks, then fry for 5 minutes, or until softened, stirring regularly.\n
+Add the spices, then cook for 1 minute, or until smelling fantastic.\n
+Meanwhile, crack the eggs into a bowl, add a pinch of sea salt and black pepper, then beat with a fork.\n
+Scatter the chopped tomatoes into the pan, cook for a further 2 minutes, then pour in the eggs and reduce the heat to low.\n
+Stir slowly until you’ve got beautiful silky strips of just cooked egg, surrounded by softer, custardy egg, then remove from the heat – the residual heat of the pan will continue to cook the eggs.\n
+Stir the coriander leaves into the eggs, then serve with warm chapatis and a little extra chilli scattered over, if you like.
+    </string>
+
+    <string name="mango_name">
+        Mango &amp; yoghurt layer pots\n
+WITH VANILLA &amp; GRANOLA DUST
+    </string>
+
+    <string name="mango_details">
+VEGETARIAN GLUTEN-FREE\n
+SERVES 2\n
+COOKS IN 10 MINUTES\n
+DIFFICULTY SUPER EASY\n
+    </string>
+
+    <string name="mango_ing">
+Ingredients\n
+\n
+1 ripe mango\n
+1 teaspoon vanilla extract\n
+180 g natural yoghurt\n
+100 g Granola Dust\n
+    </string>
+
+    <string name="mango_method">
+Method\n
+\n
+Peel and destone the mango, place in a food processor and blitz until smooth. (Alternatively, roughly chop the mango into bite-sized pieces.)\n
+Mix together the vanilla and yoghurt in a small bowl.\n
+Layer 2 lidded, portable pots with a little of the vanilla yoghurt, then a little of the mango purée and a dusting of Granola Dust. Repeat until everything is used up.\n
+Pop on the lids and go!\n
+\n
+\n
+Tips\n
+EASY SWAPS\n
+Feel free to mix up the fruit – try passionfruit, berries, stewed apple or pear. Or sprinkle over a little desiccated coconut, which is particularly good with mango.
+    </string>
+
+    <string name="maple_name">
+Goodness breakfast with maple pears\n
+    </string>
+
+    <string name="maple_details">
+        VEGETARIAN\n
+SERVES 6\n
+COOKS IN 40 MINUTES\n
+DIFFICULTY NOT TOO TRICKY
+    </string>
+
+    <string name="maple_ing">
+Ingredients\n
+\n
+100 g oats\n
+100 g millet flakes\n
+100 g barley flakes\n
+100 g quinoa\n
+40 g pumpkin seeds\n
+40 g sesame seeds\n
+800 ml - 1 litre almond milk\n
+flaked almonds\n
+\n
+MAPLE PEARS\n
+2 pears\n
+        1 tablespoon maple syrup plus extra to serve
+    </string>
+
+    <string name="maple_method">
+Method\n
+\n
+Preheat the oven to 180ºC/gas 4. Mix the oats, flakes, quinoa and seeds in a bowl, then scatter onto a roasting tray and toast in the oven for 20 minutes. Check every 5 minutes and give them a shake to ensure they toast evenly. Once golden, cool them, then store in a jar until breakfast.\n
+To make your breakfast, put 1 large handful of toasted mix per person in a pan with 200ml almond milk and simmer on a low heat for 10 minutes until the grains are tender. Or, cook all the grains at once with 800ml almond milk and cook in the same way – add the extra 200ml of almond milk to loosen slightly, if you like.\n
+Core and slice the pears, then heat with the maple syrup in a separate pan over a medium heat for 5 minutes, until just warmed through.\n Serve your grains topped with warm pear, a drizzle of maple syrup and flaked almonds.
+    </string>
+
+    <string name="pancake_name">
+Gluten-free one-cup pancakes
+    </string>
+
+    <string name="pancake_details">
+VEGETARIAN GLUTEN-FREE\n
+SERVES 4\n
+COOKS IN 15 MINUTES\n
+DIFFICULTY NOT TOO TRICKY\n
+    </string>
+
+    <string name="pancake_ing">
+Ingredients\n
+\n
+1 large free-range egg\n
+1 heaped cup of gluten-free self-raising flour (250g)\n
+1 cup of milk (300ml)\n
+olive oil
+    </string>
+
+    <string name="pancake_method">
+Method\n
+\n
+Crack 1 large egg into a large mixing bowl then add 1 heaped cup of gluten-free self-raising flour (250g), 1 cup of milk (300ml) and a tiny pinch of sea salt.\n
+Whisk everything together until you have a lovely smooth batter.\n
+Drizzle ½ a tablespoon of olive oil into a large non-stick frying pan over a medium heat, carefully tilting the pan to spread the oil out evenly.\n
+Add a few ladles of batter to the pan, leaving space between each one so they have room to spread out slightly – each ladleful will make one pancake, and you’ll need to work in batches.\n
+Cook for 1 to 2 minutes, or until little bubbles appear on the surface and the bases are golden, then carefully flip them over.\n
+When the pancakes are golden on both sides, remove to a plate.\n
+Repeat with the remaining batter, adding a little more olive oil to the pan between batches, if needed.\n
+Serve the pancakes while they’re still hot, with your favourite toppings.\n
+\n
+\n
+Tips\n
+SERVING SUGGESTIONS\n
+Top with a little yoghurt, compote, almonds, pistachios and a drizzle of honey, or simply serve with fresh berries and yoghurt.
+    </string>
+
+    <string name="waffles_name">
+Granola Dust waffles
+    </string>
+
+    <string name="waffles_details">
+VEGETARIAN\n
+SERVES 2\n
+COOKS IN 10 MINUTES\n
+DIFFICULTY SUPER EASY
+    </string>
+
+    <string name="waffles_ing">
+Ingredients\n
+\n
+50 g Granola Dust\n
+100 g self-raising flour\n
+½ teaspoon baking powder\n
+1 large free-range egg\n
+220 ml semi-skimmed milk\n
+olive oil\n
+fresh fruit, natural yoghurt, runny honey (optional, to serve)
+    </string>
+
+    <string name="waffles_method">
+Method\n
+\n
+To make the waffle batter, mix all the dry ingredients together in a large bowl. Crack in the egg, then whisk in the milk to combine.\n
+Get your waffle machine ready. Once it’s hot, spray with a little olive oil, ladle in the batter mixture and seal, following the machine instructions, and cook until golden. (Mine took 3 to 4 minutes.)\n
+Delicious served with fresh fruit, a dollop of yoghurt and a little honey, if you fancy it.
+    </string>
+
+    <string name="chicken_name">
+Sesame butterflied chicken\n
+PEANUT SAUCE, ASIAN SLAW &amp; RICE NOODLES
+    </string>
+
+    <string name="chicken_details">
+SERVES 2\n
+COOKS IN 18 MINUTES\n
+DIFFICULTY NOT TOO TRICKY
+    </string>
+
+    <string name="chicken_ing">
+Ingredients\n
+\n
+100 g fine rice noodles\n
+2 x 120 g skinless free-range chicken breasts\n
+groundnut oil\n
+4 spring onions\n
+½ a Chinese cabbage (150g)\n
+200 g sugar snap peas\n
+½–1 fresh red chilli\n
+2 limes\n
+1 tablespoon low-salt soy sauce\n
+1 tablespoon peanut butter\n
+2 tablespoons natural yoghurt\n
+2 cm piece of ginger\n
+2 teaspoons sesame seeds\n
+    </string>
+
+    <string name="chicken_method">
+Method\n
+\n
+Put a griddle pan on a high heat.\n
+In a bowl, cover the noodles with boiling kettle water to rehydrate them.\n
+Use a sharp knife to slice into the chicken breasts, then open each one out flat like a book. Rub with 1 teaspoon of groundnut oil and a small pinch of sea salt and black pepper, then griddle for 8 minutes, or until golden and cooked through, turning halfway.\n
+Trim the spring onions and rattle them through the finest slicer on your food processor, followed by the Chinese cabbage, sugar snap peas and chilli.\n
+Dress with the juice of 1 lime and the soy sauce. In a small bowl, mix the peanut butter with the yoghurt and the juice of the remaining lime, peel and finely grate in the ginger, mix again, taste, and season to perfection.\n
+Remove the chicken to a board and slice, lightly toasting the sesame seeds in the residual heat of the griddle pan and sprinkling them over the chicken before serving.\n
+Drain the noodles, divide between your plates with the chicken, slaw and peanut sauce, mix it all up and tuck on in.
+    </string>
+
+    <string name="curry_name">
+Sweet potato, chickpea &amp; spinach curry
+    </string>
+
+    <string name="curry_details">
+DAIRY-FREE VEGETARIAN VEGAN\n
+SERVES 6\n
+COOKS IN 1 HOUR\n
+DIFFICULTY SUPER EASY
+    </string>
+
+    <string name="curry_ing">
+Ingredients\n
+\n
+olive oil\n
+2 red onions\n
+3 tablespoons rogan josh paste\n
+1 fresh red chilli\n
+3cm piece of ginger\n
+1 bunch of fresh coriander\n
+3 sweet potatoes\n
+1 x 400 g tin chickpeas\n
+8 ripe tomatoes or 1 x 400g tin chopped tomatoes\n
+1 x 400 ml tin light coconut milk\n
+400 g pre-washed spinach
+    </string>
+
+    <string name="curry_method">
+Method\n
+\n
+Heat 2 tablespoons of oil in a large saucepan over a medium heat.\n
+Peel, finely slice and add the onion along with the curry paste, mix well, then cook for 10 minutes, or until the onion is soft and golden, stirring occasionally.\n
+Finely chop the chilli, then peel and finely grate the ginger. Pick the coriander leaves and finely slice the stalks. Chop the sweet potatoes into 2cm chunks.\n
+Add the chilli, ginger, coriander stalks and sweet potato to the softened onion. Drain and tip in the chickpeas, then cook for 5 minutes.\n
+Roughly chop and add the fresh tomatoes (if using) or tip in the tinned tomatoes. Add 200ml of water and bring to the boil.\n
+Reduce the heat to a simmer, then cover and cook for 10 to 15 minutes.\n
+Remove the lid, then cook for a further 15 to 20 minutes, stirring occasionally, or until the sweet potato is cooked through and the sauce thickened.\n
+Stir in the coconut milk and cook for a couple of minutes, then stir in the spinach and cook until wilted.\n
+Scatter over the coriander leaves, then serve with poppadoms and rice, if you like.\n
+\n
+\n
+Tips\n
+To freeze the curry for another time, leave it to cool in the pan, then spoon into portion-sized containers or freezer bags and freeze.\n The curry will keep there for up to 3 months.
+    </string>
+
+    <string name="pizza_name">
+Wholemeal-crust pizza rossa\n
+WITH ASPARAGUS, PARMESAN &amp; ROCKET SALAD
+    </string>
+
+    <string name="pizza_details">
+VEGETARIAN\n
+        MAKES 4\n
+COOKS IN 45 MINUTES PLUS PROVING\n
+DIFFICULTY NOT TOO TRICKY
+    </string>
+
+    <string name="pizza_ing">
+Ingredients\n
+\n
+400 g strong white bread flour , plus extra for dusting\n
+100 g plain wholemeal flour\n
+1 x 7 g sachet of dried yeast\n
+olive oil\n
+2 cloves of garlic\n
+1 fresh red chilli\n
+1 x 400 g tin of quality plum tomatoes\n
+1 bunch of fresh basil (30g)\n
+300 g asparagus\n
+30 g Parmesan cheese\n
+200 g rocket\n
+extra virgin olive oil\n
+1 lemon\n
+balsamic vinegar
+    </string>
+
+    <string name="pizza_method">
+Method\n
+\n
+To make the pizza dough, combine 400g of strong white bread flour and 100g plain wholemeal flour and 1 x 7g sachet of yeast in a large bowl with 1 teaspoon of fine sea salt. Make a well in the middle and pour in 325ml of tepid water. Bring the mixture into a ball with your hand, then knead on a flour-dusted surface for 10 minutes, or until elastic and smooth.\n
+Place into an oiled bowl, cover with a damp tea towel and leave to prove for 1 hour or until doubled in size.\n
+Knock the dough back by kneading it briefly, then divide into 4 balls. Cover again and leave to prove again for 1 hour.\n
+Preheat the oven to its highest setting. Pop a couple of pizza stones in the oven, or use 2 baking trays dusted with flour.\n
+For the sauce, peel 2 cloves of garlic and finely slice, along with the 1 fresh red chilli. Place in a saucepan on a medium heat with 1 tablespoon of olive oil and fry until golden.\n
+Add 1 x 400g tin of plum tomatoes, gently crushing them through your hands into the pan. Simmer for 5 minutes or until slightly thickened, then taste and season to perfection with sea salt and black pepper.\n
+Roll and stretch each ball of dough into 20cm rounds to make 4 pizza bases.\n
+Spread each base with the tomato sauce, then pick over a little basil.\n
+Transfer the pizzas, two at a time, to the pizza stones or baking trays and bake for 8 to 10 minutes, or until golden and crisp. Repeat with the remaining pizzas.\n
+Using a speed peeler, shave 300g of asparagus spears and 30g of Parmesan into a large bowl. Add 200g of rocket and the remaining basil leaves, then toss with a drizzle of extra virgin olive oil and a good squeeze of lemon juice.\n
+Top each pizza with a large handful of salad, then drizzle with balsamic vinegar, and tuck in!\n
+\n
+\n
+Tips\n
+HEALTH &amp; NUTRITION\n
+Instead of melted cheese, this pizza is topped with a chilli-spiked tomato sauce and fresh salad.
+    </string>
+
+    <string name="prawn_name">
+Prawn &amp; courgette spaghetti\n
+GARLIC, CHILLI &amp; LEMON JUICE
+
+    </string>
+
+    <string name="prawn_details">
+
+SERVES 6\n
+COOKS IN 20 MINUTES\n
+DIFFICULTY SUPER EASY\n
+    </string>
+
+    <string name="prawn_ing">
+Ingredients\n
+\n
+2 yellow courgettes\n
+3 green courgettes\n
+2 cloves of garlic\n
+2 fresh red chillies\n
+1 bunch of fresh dill or flat-leaf parsley\n
+500 g dried spaghetti\n
+1 large knob of unsalted butter\n
+extra virgin olive oil\n
+600 g raw peeled prawns, from sustainable sources\n
+½ lemon\n
+Parmesan cheese, optional
+    </string>
+
+    <string name="prawn_method">
+Method\n
+\n
+Halve the courgettes lengthways, then finely slice at an angle. Peel and finely slice the garlic, then deseed and finely slice the chillies. Pick and roughly chop the herbs.\n
+Cook the pasta according to the packet instructions.\n
+Melt the butter with a splash of oil in a large frying pan on a medium heat. Add the courgettes and cook until slightly browned.\n
+Add the garlic, chilli and prawns, then cook until the prawns are cooked through. Take off the heat and squeeze over the lemon juice.\n
+Drain the pasta once cooked, reserving a little cooking liquid. Add the pasta to the frying pan and toss with the courgettes and prawns.\n Add some cooking liquid if it looks a little dry, then stir in the dill or parsley.\n
+Season to taste and serve at once, with a grating of Parmesan, if you like.
+    </string>
+
+    <string name="tuna_name">
+Tuna fettuccine\n
+BABY COURGETTES, CHERRY TOMATOES, PECORINO &amp; CRUSHED ALMONDS
+    </string>
+
+    <string name="tuna_details">
+SERVES 4\n
+COOKS IN 20 MINUTES\n
+DIFFICULTY NOT TOO TRICKY
+    </string>
+
+    <string name="tuna_ing">
+Ingredients\n
+\n
+50 g whole almonds\n
+1 small onion\n
+2 cloves of garlic\n
+4 anchovy fillets in oil, from sustainable sources\n
+olive oil\n
+300 g dried fettuccine or linguine\n
+4 baby courgettes, with flowers\n
+300 g yellowfin tuna, from sustainable sources\n
+1 x 400 g tin of quality cherry tomatoes\n
+1 lemon\n
+30 g pecorino cheese\n
+extra virgin olive oil
+    </string>
+
+    <string name="tuna_method">
+Method\n
+\n
+Lightly toast the almonds in a large frying pan on a medium heat, then tip into a pestle and mortar, leaving the pan on the heat.\n
+Peel the onion and garlic, finely chop with the anchovies and add to the pan with 2 tablespoons of olive oil. Fry for 4 minutes, stirring regularly.\n
+Meanwhile, cook the pasta in a pan of boiling salted water according to the packet instructions.\n
+Slice the courgettes ½cm thick, reserving the flowers, chop the tuna into rough 1cm dice, then stir both into the frying pan. Scrunch in the tomatoes through your clean hands, squeeze over the lemon juice and leave to tick away, stirring regularly.\n
+Finely grate the pecorino. Pound the almonds until fine.\n
+Once cooked, use tongs to drag the pasta straight into the frying pan, letting some starchy cooking water go with it. Toss together, then turn the heat off, tear in the courgette flowers and toss in the pecorino and most of the almonds.\n
+Check the seasoning, loosen with an extra splash of cooking water, if needed, and serve, sprinkled with the remaining almonds, finished with a drizzle of extra virgin olive oil.
+    </string>
+
+
+</resources>

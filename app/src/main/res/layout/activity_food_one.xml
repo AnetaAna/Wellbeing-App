@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodOne">
+
+
+    <ImageView
+        android:id="@+id/honey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/honey" />
+
+    <Button
+        android:id="@+id/eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/eggs_smaller"
+        android:text="SILKY MASALA EGGS\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DF4E4A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/maple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/maple_smaller"
+        android:text="BREAKFAST WITH\n MAPLE PEARS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DF4E4A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eggs"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/mango_smaller"
+        android:text="Mango &amp; yoghurt\n layer pots"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DF4E4A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/waffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maple"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/waffles_smaller"
+        android:text="Granola Dust\n waffles"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DF4E4A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pancake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mango"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/pancake_smaller"
+        android:text="Gluten-free one-cup pancakes"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DF4E4A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

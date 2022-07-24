@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/clouds"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/mindfulness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="85dp"
+        android:backgroundTint="#D000FF"
+        android:fontFamily="@font/suez_one"
+        android:text="PRACTICE MINDFULNESS"
+        android:textStyle="bold"
+        app:icon="@drawable/mindful_icon"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/quotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/quotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C51162"
+        android:fontFamily="@font/suez_one"
+        android:text="QUOTES"
+        app:icon="@drawable/quotes_icon"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/meditation"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mindfulness" />
+
+
+    <Button
+        android:id="@+id/meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#723ABF"
+        android:fontFamily="@font/suez_one"
+        android:text="MEDITATION"
+        app:icon="@drawable/meditation_icon"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/workout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotes" />
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0F9547"
+        android:fontFamily="@font/suez_one"
+        android:text="WORKOUT"
+        app:icon="@drawable/workout_icon"
+        app:iconTint="@null"
+        app:iconGravity="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/recipes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meditation" />
+
+    <Button
+        android:id="@+id/recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E47421"
+        android:fontFamily="@font/suez_one"
+        android:text="HEALTHY RECIPES"
+        app:icon="@drawable/recipe_icon"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

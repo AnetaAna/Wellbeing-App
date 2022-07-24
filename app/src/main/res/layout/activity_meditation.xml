@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Mindfulness"
+    android:background="@drawable/mandala">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/meditation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="MEDITATION AND MUDRAS"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/meditation_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meditation_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#6BF6F4F4"
+        android:padding="13dp"
+        android:text="@string/meditation_about"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shuni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meditation_about"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/shuni"
+        android:drawablePadding="10dp"
+        android:text="SHUNI" />
+
+    <Button
+        android:id="@+id/gyana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuni"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/gyana"
+        android:drawablePadding="10dp"
+        android:text="GYANA"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/prana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/prana"
+        android:drawablePadding="10dp"
+        android:text="PRANA"
+        android:layout_below="@id/gyana"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/dhyana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prana"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/dhyana"
+        android:drawablePadding="10dp"
+        android:text="DHYANA"
+        android:layout_marginTop="20dp"
+       />
+
+    <Button
+        android:id="@+id/anjali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/anjali"
+        android:drawablePadding="10dp"
+        android:text="ANJALI"
+        android:layout_below="@id/dhyana"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".Mindfulness">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sand" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#92FFFFFF"
+        android:padding="20dp"
+        android:text="@string/mindfulness_tips"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tips"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:fontFamily="@font/rubik_mono_one"
+        android:minHeight="48dp"
+        android:text="WIND" />
+
+    <Switch
+        android:id="@+id/birds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wind"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:fontFamily="@font/rubik_mono_one"
+        android:minHeight="48dp"
+        android:text="BIRDS" />
+
+    <Switch
+        android:id="@+id/stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birds"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:fontFamily="@font/rubik_mono_one"
+        android:minHeight="48dp"
+        android:text="STREAM" />
+
+    <Switch
+        android:id="@+id/rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stream"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:fontFamily="@font/rubik_mono_one"
+        android:minHeight="48dp"
+        android:text="RAIN" />
+
+</RelativeLayout>
+
+
+
